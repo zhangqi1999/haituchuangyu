@@ -1,0 +1,29 @@
+{
+  "name": "haituchuangyu",
+  "version": "1.0.0",
+  "description": "[简单至极的在线平面制作工具]",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangqi1999/haituchuangyu.git"
+  },
+  "keywords": [
+    "['平面制作'",
+    "'模板设计'",
+    "'宣传海报']"
+  ],
+  "author": "zhangqi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhangqi1999/haituchuangyu/issues"
+  },
+  "homepage": "https://github.com/zhangqi1999/haituchuangyu#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "element-ui": "^2.5.4"
+  }
+}

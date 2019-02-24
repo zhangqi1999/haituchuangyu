@@ -1,58 +1,148 @@
 <template>
     <div class="home">
-        <el-row>
-            <el-col :span="2"><div class="grid-content hide">1</div></el-col>
-            <el-col :span="1">
-                <div class="grid-content">
-                    <img class="logo" src="../assets/img/logo.png">
-                </div>
+        <div class="banner"></div>
+        <!-- 互联网营销 -->
+        <el-row class="simple" type="flex">
+            <el-col :span="6" class="simple_left">
+                <span class="simple_title">互联网营销</span>
+                <span class="simple_bar">店铺运营BANNER</span>
             </el-col>
-            <el-col :span="2">
-                <div class="grid-content">
-                    <h5 class="logo-size">海图创域</h5>
-                </div>
-            </el-col>
-            <el-col :span="3">
-                <div class="grid-content">
-                    <h6 class="left-size">让设计师赋能中小企业</h6>
-                </div>
-            </el-col>
-            <el-col :span="4"><div class="grid-content hide">7</div></el-col>
-            <el-col :span="2">
-                <div class="grid-content">
-                    <el-button round size="small" class="blod_size">&nbsp;&nbsp;&nbsp;首&nbsp;页&nbsp;&nbsp;&nbsp;</el-button>
-                </div>
-            </el-col>
-            <el-col :span="2">
-                <div class="grid-content">
-                    <!-- <el-button round size="small">模板中心</el-button> -->
-                    <span style="color:#fff; font-size:12px;" class="masterplate">模板中心</span>
-                </div>
-            </el-col>
-            <el-col :span="3"><div class="grid-content hide">110</div></el-col>
-            <el-col :span="2">
-                <div class="grid-content">
-                    <a href="">
-                        <span class="nav_bar">VIP特权</span>
-                    </a>
-                </div>
-            </el-col>
-            <el-col :span="1">
-                <div class="grid-content">
-                    <a href="">
-                        <span class="nav_bar">我的作品</span>
-                    </a>
-                </div>
-            </el-col>
-            <el-col :span="2">
-                <div class="grid-content">
-                    <a href="">
-                        <img class="head_portrait" src="../assets/img/head_portrait.png">   
-                    </a>
-                </div>
+            <el-col :span="6" class="hide">1</el-col>
+            <el-col :span="6" class="hide">2</el-col>
+            <el-col :span="6" class="simple_right">
+               <span class="more">
+					<a href="#">查看更多</a>
+				</span>
+				<a href="#">
+					<img class="simple_icon" src="../assets/img/simple_icon1.png"/>
+				</a>
+				<a href="#">
+					<img class="simple_icon" src="../assets/img/simple_icon2.png"/>	
+				</a>
+				<a href="#">
+					<img class="simple_icon" src="../assets/img/simple_icon3.png"/>
+				</a>
             </el-col>
         </el-row>
-        <div class="banner"></div>
+        <ul class="simple_list_img">
+            <el-row type="flex">
+                <el-col :span="6">
+                    <img src="../assets/img/simple-img (1).png">
+                </el-col>
+                <el-col :span="6">
+                    <img src="../assets/img/simple-img (2).png">
+                </el-col>
+                <el-col :span="6">
+                    <img src="../assets/img/simple-img (3).png">
+                </el-col>
+                <el-col :span="6">
+                    <img src="../assets/img/simple-img (4).png">
+                </el-col>
+            </el-row>
+            <el-row type="flex">
+                <el-col :span="6">
+                    <img src="../assets/img/simple-img (1).png">
+                </el-col>
+                <el-col :span="6">
+                    <img src="../assets/img/simple-img (2).png">
+                </el-col>
+                <el-col :span="6">
+                    <img src="../assets/img/simple-img (3).png">
+                </el-col>
+                <el-col :span="6">
+                    <img src="../assets/img/simple-img (4).png">
+                </el-col>
+            </el-row>
+            <el-row type="flex">
+                <el-col :span="6">
+                    <img src="../assets/img/simple-img (1).png">
+                </el-col>
+                <el-col :span="6">
+                    <img src="../assets/img/simple-img (2).png">
+                </el-col>
+                <el-col :span="6">
+                    <img src="../assets/img/simple-img (3).png">
+                </el-col>
+                <el-col :span="6">
+                    <img src="../assets/img/simple-img (4).png">
+                </el-col>
+            </el-row>
+            <el-row class="cut_off_rule"></el-row>
+        </ul>
+        <!-- 品牌VI系统 -->
+        <el-row class="simple" type="flex">
+            <el-col :span="3" class="simple_left">
+                <span class="simple_title">品牌VI系统</span>
+            </el-col>
+            <el-col :span="12" class="simple_left">
+                 <span class="simple_bar simple_nav">海报单页</span>
+                 <span class="simple_bar simple_nav active">折页</span>
+                 <span class="simple_bar simple_nav">易拉宝</span>
+                 <span class="simple_bar simple_nav">请柬</span>
+                 <span class="simple_bar simple_nav">菜单</span>
+                 <span class="simple_bar simple_nav">台卡</span>
+            </el-col>
+            <el-col :span="3" class="hide">2</el-col>
+            <el-col :span="6" class="simple_right">
+               <span class="more">
+					<a href="#">查看更多</a>
+				</span>
+				<a href="#">
+					<img class="simple_icon" src="../assets/img/simple_icon1.png"/>
+				</a>
+				<a href="#">
+					<img class="simple_icon" src="../assets/img/simple_icon2.png"/>	
+				</a>
+				<a href="#">
+					<img class="simple_icon" src="../assets/img/simple_icon3.png"/>
+				</a>
+            </el-col>
+        </el-row>
+        <ul class="simple_list_img">
+            <el-row type="flex">
+                <el-col :span="6">
+                    <img src="../assets/img/brand system (1).png">
+                </el-col>
+                 <el-col :span="6">
+                    <img src="../assets/img/brand system (2).png">
+                </el-col>
+                 <el-col :span="6">
+                    <img src="../assets/img/brand system (3).png">
+                </el-col>
+                 <el-col :span="6">
+                    <img src="../assets/img/brand system (4).png">
+                </el-col>
+            </el-row>
+            <el-row type="flex">
+                <el-col :span="6">
+                    <img src="../assets/img/brand system (5).png">
+                </el-col>
+                 <el-col :span="6">
+                    <img src="../assets/img/brand system (6).png">
+                </el-col>
+                 <el-col :span="6">
+                    <img src="../assets/img/brand system (7).png">
+                </el-col>
+                 <el-col :span="6">
+                    <img src="../assets/img/brand system (8).png">
+                </el-col>
+            </el-row>
+            <el-row type="flex">
+                <el-col :span="6">
+                    <img src="../assets/img/brand system (9).png">
+                </el-col>
+                 <el-col :span="6">
+                    <img src="../assets/img/brand system (10).png">
+                </el-col>
+                 <el-col :span="6">
+                    <img src="../assets/img/brand system (11).png">
+                </el-col>
+                 <el-col :span="6">
+                    <img src="../assets/img/brand system (12).png">
+                </el-col>
+            </el-row>
+            <el-row class="cut_off_rule botmar"></el-row>
+        </ul>
     </div>
 </template>
 <script> 
@@ -66,18 +156,10 @@ export default {
 }
 </script>
 <style scoped>
+
     .home{
-        width: 100%;
+        /* width: 100%; */
         min-width: 1100px;
-    }
-    body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td, a, span, img {
-        margin: 0;
-        padding: 0;
-        word-break: break-all;
-        text-shadow: none;
-    }
-    a{
-        text-decoration:none;
     }
     h1{
         color: aqua;
@@ -85,75 +167,68 @@ export default {
     .hide{
         opacity:0;
     }
-    .bg-purple-dark {
-        background: #99a9bf;
-    }
-    .bg-purple{
-        background: #d3dce6;
-    }
-    .bg-purple-success{
-        background: green;
-    }
-    .bg-purple-warn{
-        background:orange;
-    }
-    .el-row{
-        height:70px;
-        line-height: 70px;
-        background-color:#1c3254;
-    }
-    .logo{
-        margin-top:5px;
-    }
-    .logo-size{
-        font-size:24px;
-    }
-    .left-size{
-        text-align:left;
-        font-size:14px;
-    }
-    .left-size,.logo-size{
-        color: #fff;
-    }
-    .el-button{
-        color: #444;
-    }
-    .blod_size{
-        font-weight: 600;
-    }
-     .el-button:hover{
-        color: #409EFF;
-    }
-    .masterplate:hover{
-        display: inline-block;
-        padding: 10px 15px;
-        border-radius: 20px;
-        line-height: 1;
-        white-space: nowrap;
-        cursor: pointer;
-        color: #409EFF !important;
-        border-color: #c6e2ff;
-        background-color: #ecf5ff;
-    }
-    .head_portrait{
-        margin: 10px 0 0 30px;
-    }
-    .nav_bar{
-        display: inline-block;
-        width: 72px;
-        height: 28px;
-        border-radius: 20px;
-        line-height:28px;
-        color: #fff;
-        font-size: 12px;
-        white-space: nowrap;
-        cursor: pointer;
-        border: 1px solid #fff;
-        
-    }
     .banner{
         width: 100%;
-        height: 272px;
+        height: 372px;
         background: url(../assets/img/banner.png) no-repeat center center/100% 100%;
+    }
+    .simple{
+        width: 1028px;
+        height: 45px;
+        margin: 30px auto;
+	    line-height: 45px;
+    }
+     .simple_left{
+        text-align: left;
+        margin-left: 11px;
+    }
+    .simple_title{
+        font-size: 18px;
+        margin-right: 20px;
+    }
+    .simple_bar{
+        font-size: 13px;
+        color: #d2d2d2;
+    }
+    .simple_nav{
+        margin-right: 30px;
+    }
+    .active{
+        color: #0BD5D4;
+    }
+    .simple_right{
+        text-align: right;
+        margin-right: 11px;
+    }
+    .more a{
+        display: inline-block;
+        width:64px;
+        height:23px;
+        border:1px solid #919191;
+        line-height: 23px;
+        text-align: center;
+        border-radius:32px;
+        font-size: 11px;
+        color: #444;
+    }
+    .simple_icon{
+        vertical-align: middle;
+        margin-left: 10px;
+    }
+    /* 模板列表 */
+    .simple_list_img{
+        width: 1028px;
+        height: auto;
+        margin: 0 auto;
+    }
+    .cut_off_rule{
+        width: 1006px;
+        height: 1px;
+        margin: 0 auto;
+        margin-top: 30px;
+        background: #ddd;
+    }
+    .botmar{
+        margin-bottom:30px; 
     }
 </style>
